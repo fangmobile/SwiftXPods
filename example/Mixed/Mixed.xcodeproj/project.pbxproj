@@ -3,129 +3,296 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7975F70F2CC83DD800228773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F7052CC83DD800228773 /* AppDelegate.swift */; };
+		7975F7102CC83DD800228773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F70C2CC83DD800228773 /* SceneDelegate.swift */; };
+		7975F7112CC83DD800228773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F70D2CC83DD800228773 /* ViewController.swift */; };
+		7975F7122CC83DD800228773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7975F7062CC83DD800228773 /* Assets.xcassets */; };
+		7975F7142CC83DD800228773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7975F7092CC83DD800228773 /* LaunchScreen.storyboard */; };
+		7975F7152CC83DD800228773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7975F70B2CC83DD800228773 /* Main.storyboard */; };
+		C8AAD1E40ED0F08C603D9E08 /* Pods_Mixed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E2C031928B4A1BC324E22F /* Pods_Mixed.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		7975F6A02CC8385F00228773 /* Mixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A91E14FAA3F86454819BB6 /* Pods-Mixed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixed.debug.xcconfig"; path = "Target Support Files/Pods-Mixed/Pods-Mixed.debug.xcconfig"; sourceTree = "<group>"; };
+		38DEFCCB64865CB4AED222CD /* Pods-Mixed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixed.release.xcconfig"; path = "Target Support Files/Pods-Mixed/Pods-Mixed.release.xcconfig"; sourceTree = "<group>"; };
+		7975F6CD2CC83D3800228773 /* Mixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7975F7052CC83DD800228773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7975F7062CC83DD800228773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7975F7072CC83DD800228773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7975F7082CC83DD800228773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7975F70A2CC83DD800228773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7975F70C2CC83DD800228773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7975F70D2CC83DD800228773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8E2C031928B4A1BC324E22F /* Pods_Mixed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mixed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7975F6A22CC8385F00228773 /* Mixed */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Mixed;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		7975F69D2CC8385F00228773 /* Frameworks */ = {
+		7975F6CA2CC83D3800228773 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8AAD1E40ED0F08C603D9E08 /* Pods_Mixed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7975F6972CC8385F00228773 = {
+		5230A79CF8300F4B114F9C7D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7975F6A22CC8385F00228773 /* Mixed */,
-				7975F6A12CC8385F00228773 /* Products */,
+				09A91E14FAA3F86454819BB6 /* Pods-Mixed.debug.xcconfig */,
+				38DEFCCB64865CB4AED222CD /* Pods-Mixed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7975F6C42CC83D3800228773 = {
+			isa = PBXGroup;
+			children = (
+				7975F70E2CC83DD800228773 /* Mixed */,
+				7975F6CE2CC83D3800228773 /* Products */,
+				5230A79CF8300F4B114F9C7D /* Pods */,
+				F3404FCC45F9DAFFDAD71A88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		7975F6A12CC8385F00228773 /* Products */ = {
+		7975F6CE2CC83D3800228773 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7975F6A02CC8385F00228773 /* Mixed.app */,
+				7975F6CD2CC83D3800228773 /* Mixed.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7975F70E2CC83DD800228773 /* Mixed */ = {
+			isa = PBXGroup;
+			children = (
+				7975F7052CC83DD800228773 /* AppDelegate.swift */,
+				7975F7062CC83DD800228773 /* Assets.xcassets */,
+				7975F7072CC83DD800228773 /* Info.plist */,
+				7975F7092CC83DD800228773 /* LaunchScreen.storyboard */,
+				7975F70B2CC83DD800228773 /* Main.storyboard */,
+				7975F70C2CC83DD800228773 /* SceneDelegate.swift */,
+				7975F70D2CC83DD800228773 /* ViewController.swift */,
+			);
+			path = Mixed;
+			sourceTree = "<group>";
+		};
+		F3404FCC45F9DAFFDAD71A88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E2C031928B4A1BC324E22F /* Pods_Mixed.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7975F69F2CC8385F00228773 /* Mixed */ = {
+		7975F6CC2CC83D3800228773 /* Mixed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7975F6AE2CC8386100228773 /* Build configuration list for PBXNativeTarget "Mixed" */;
+			buildConfigurationList = 7975F6E02CC83D3900228773 /* Build configuration list for PBXNativeTarget "Mixed" */;
 			buildPhases = (
-				7975F69C2CC8385F00228773 /* Sources */,
-				7975F69D2CC8385F00228773 /* Frameworks */,
-				7975F69E2CC8385F00228773 /* Resources */,
+				59D2F97D6F4E4D545C40B06A /* [CP] Check Pods Manifest.lock */,
+				7975F6C92CC83D3800228773 /* Sources */,
+				7975F6CA2CC83D3800228773 /* Frameworks */,
+				7975F6CB2CC83D3800228773 /* Resources */,
+				96A16787462F6437885B07C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7975F6A22CC8385F00228773 /* Mixed */,
-			);
 			name = Mixed;
-			packageProductDependencies = (
-			);
 			productName = Mixed;
-			productReference = 7975F6A02CC8385F00228773 /* Mixed.app */;
+			productReference = 7975F6CD2CC83D3800228773 /* Mixed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7975F6982CC8385F00228773 /* Project object */ = {
+		7975F6C52CC83D3800228773 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					7975F69F2CC8385F00228773 = {
+					7975F6CC2CC83D3800228773 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 7975F69B2CC8385F00228773 /* Build configuration list for PBXProject "Mixed" */;
+			buildConfigurationList = 7975F6C82CC83D3800228773 /* Build configuration list for PBXProject "Mixed" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7975F6972CC8385F00228773;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = 7975F6A12CC8385F00228773 /* Products */;
+			mainGroup = 7975F6C42CC83D3800228773;
+			productRefGroup = 7975F6CE2CC83D3800228773 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7975F69F2CC8385F00228773 /* Mixed */,
+				7975F6CC2CC83D3800228773 /* Mixed */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7975F69E2CC8385F00228773 /* Resources */ = {
+		7975F6CB2CC83D3800228773 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7975F7122CC83DD800228773 /* Assets.xcassets in Resources */,
+				7975F7142CC83DD800228773 /* LaunchScreen.storyboard in Resources */,
+				7975F7152CC83DD800228773 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59D2F97D6F4E4D545C40B06A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mixed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96A16787462F6437885B07C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixed/Pods-Mixed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixed/Pods-Mixed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mixed/Pods-Mixed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		7975F69C2CC8385F00228773 /* Sources */ = {
+		7975F6C92CC83D3800228773 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7975F70F2CC83DD800228773 /* AppDelegate.swift in Sources */,
+				7975F7102CC83DD800228773 /* SceneDelegate.swift in Sources */,
+				7975F7112CC83DD800228773 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		7975F7092CC83DD800228773 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7975F7082CC83DD800228773 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7975F70B2CC83DD800228773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7975F70A2CC83DD800228773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		7975F6AC2CC8386100228773 /* Debug */ = {
+		7975F6E12CC83D3900228773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A91E14FAA3F86454819BB6 /* Pods-Mixed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mixed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangmobile.Mixed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7975F6E22CC83D3900228773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DEFCCB64865CB4AED222CD /* Pods-Mixed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mixed/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangmobile.Mixed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7975F6E32CC83D3900228773 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		7975F6AD2CC8386100228773 /* Release */ = {
+		7975F6E42CC83D3900228773 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,84 +411,28 @@
 			};
 			name = Release;
 		};
-		7975F6AF2CC8386100228773 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mixed/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangmobile.Mixed;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7975F6B02CC8386100228773 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mixed/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fangmobile.Mixed;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7975F69B2CC8385F00228773 /* Build configuration list for PBXProject "Mixed" */ = {
+		7975F6C82CC83D3800228773 /* Build configuration list for PBXProject "Mixed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7975F6AC2CC8386100228773 /* Debug */,
-				7975F6AD2CC8386100228773 /* Release */,
+				7975F6E32CC83D3900228773 /* Debug */,
+				7975F6E42CC83D3900228773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7975F6AE2CC8386100228773 /* Build configuration list for PBXNativeTarget "Mixed" */ = {
+		7975F6E02CC83D3900228773 /* Build configuration list for PBXNativeTarget "Mixed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7975F6AF2CC8386100228773 /* Debug */,
-				7975F6B02CC8386100228773 /* Release */,
+				7975F6E12CC83D3900228773 /* Debug */,
+				7975F6E22CC83D3900228773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7975F6982CC8385F00228773 /* Project object */;
+	rootObject = 7975F6C52CC83D3800228773 /* Project object */;
 }
