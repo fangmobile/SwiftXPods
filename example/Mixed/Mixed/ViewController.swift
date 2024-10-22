@@ -15,16 +15,10 @@ class ViewController: FormViewController {
         
         form
             +++ Section("ViewRow Demo")
-                <<< ViewRow<UIView>("view") { (row) in
-                    row.title = "My View Title" // optional
-                }
-                .cellSetup { (cell, row) in
-                    //  Construct the view for the cell
-                    cell.view = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 200))
-                    cell.view?.backgroundColor = UIColor.orange
-                }
+                <<< LabelRow() { (row) in
+                                    row.title = "A Row"
+                                    row.value = "Hello World"
+                                }
     }
-
-
 }
 

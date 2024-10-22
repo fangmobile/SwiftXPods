@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794A41092CC846690011C1ED /* ImageRow in Frameworks */ = {isa = PBXBuildFile; productRef = 794A41082CC846690011C1ED /* ImageRow */; };
 		7975F70F2CC83DD800228773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F7052CC83DD800228773 /* AppDelegate.swift */; };
 		7975F7102CC83DD800228773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F70C2CC83DD800228773 /* SceneDelegate.swift */; };
 		7975F7112CC83DD800228773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7975F70D2CC83DD800228773 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8AAD1E40ED0F08C603D9E08 /* Pods_Mixed.framework in Frameworks */,
+				794A41092CC846690011C1ED /* ImageRow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,9 @@
 				Base,
 			);
 			mainGroup = 7975F6C42CC83D3800228773;
+			packageReferences = (
+				794A41072CC846690011C1ED /* XCRemoteSwiftPackageReference "ImageRow" */,
+			);
 			productRefGroup = 7975F6CE2CC83D3800228773 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -433,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		794A41072CC846690011C1ED /* XCRemoteSwiftPackageReference "ImageRow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EurekaCommunity/ImageRow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		794A41082CC846690011C1ED /* ImageRow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 794A41072CC846690011C1ED /* XCRemoteSwiftPackageReference "ImageRow" */;
+			productName = ImageRow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7975F6C52CC83D3800228773 /* Project object */;
 }
