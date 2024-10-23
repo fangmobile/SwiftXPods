@@ -1,9 +1,24 @@
 # SwiftXPods
 
 ## What's this repo about
-It shows an issue when using CocoaPods and Swift Packages together. When both of them bring in the same library, Xcode issues warnings about it. Potential runtime issues can occur too.
+It shows an issue when using CocoaPods and Swift Packages together. When both of them bring in the same framework, Xcode issues warnings about it. Potential runtime issues can occur too.
 
 The example app uses `ViewRow` via CocoaPods and `ImageRow` through SPM, both of which depend on another common library, `Eureka`. As a result, Eureka is added to the workspace twice.
+
+ViewRow:
+```
+s.dependencies = {
+  	'Eureka' => '>= 5.0.0'
+  }
+```
+ImageRow:
+```
+dependencies: [
+        .package(url: "https://github.com/xmartlabs/Eureka.git", from: "5.3.5"),
+    ]
+```
+
+Note: I understand both ViewRow and ImageRow are available through both Cocoapods and SPM. So the problem in THIS example can be solved by stick with one source. But this serves as an example where one framework are available only via newer SPM, but depend on another framework that is already depended on by the other Cocoapods framework.
 
 Xcode issues fourteen warnings about duplicate class implementations. For example:
 
